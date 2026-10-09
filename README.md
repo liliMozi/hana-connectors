@@ -42,9 +42,14 @@ on it.
 
 ## Publishing
 
-Upload `dist/*.zip` and `dist/*.entry.json` to a stable GitHub Release, then
-add the records in `dist/market-records.json` to the market repository's
-`registry.json` and `approvals.json` with the release tag.
+Upload **all** of `dist/*.zip` and `dist/*.entry.json` to one stable GitHub
+Release, then point every record in `dist/market-records.json` at that tag in
+the market repository's `registry.json` and `approvals.json`.
+
+Every release carries every connector, not only the new ones: the market
+looks up each enrolled connector in this repository's latest release.
+Packing is deterministic, so an unchanged connector keeps its SHA-256 from
+one release to the next.
 
 ## Trademarks
 
