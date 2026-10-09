@@ -25,6 +25,15 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const PUBLISHER = "liliMozi";
 const REPOSITORY = "liliMozi/hana-connectors";
 const AUTH_TYPES = new Set(["none", "oauth", "bearer"]);
+const TRANSPORTS = new Set(["streamable-http", "sse"]);
+
+/** "link" when the user pastes a per-user link, "query" when a key joins the URL, else "". */
+function addressCredential(entry) {
+  const types = (entry.credentials || []).map((item) => item?.target?.type);
+  if (types.includes("url")) return "link";
+  if (types.includes("query")) return "query";
+  return "";
+}
 const SAFE_ID = /^[a-z0-9][a-z0-9._-]{0,63}$/;
 const PROBE_TIMEOUT_MS = 20_000;
 
@@ -63,6 +72,12 @@ function readCatalog() {
     if (!fs.existsSync(path.join(ROOT, entry.icon))) throw new Error(`${label}.icon ${entry.icon} does not exist`);
     if (entry.auth === "bearer" && !entry.credentials?.some((item) => item?.target?.type === "bearer")) {
       throw new Error(`${label}: a bearer connector must declare its bearer credential so Hana can ask for it`);
+    }
+    if (entry.transport !== undefined && !TRANSPORTS.has(entry.transport)) {
+      throw new Error(`${label}.transport must be streamable-http or sse`);
+    }
+    if (addressCredential(entry) && entry.auth !== "none") {
+      throw new Error(`${label}: a connector whose key travels in the URL declares auth "none"`);
     }
   }
   return catalog.connectors;
@@ -119,6 +134,9 @@ async function probe(entry, discoverMcpOAuth) {
 
 /** Whether a probe result supports the auth the catalog declares. */
 function probeMatches(entry, result) {
+  // The key is part of the address, so without it the server may refuse
+  // anything; it only has to answer over HTTP.
+  if (addressCredential(entry) === "query") return result.status !== "error" || typeof result.httpStatus === "number";
   if (entry.auth === "none") return result.status === "open";
   if (entry.auth === "oauth") return result.status === "oauth-dcr";
   // A bearer server may accept `initialize` without credentials and check the
@@ -136,7 +154,7 @@ function writePackage(entry) {
     id: entry.id,
     name: entry.name,
     description: entry.description,
-    transport: "streamable-http",
+    transport: entry.transport || "streamable-http",
     url: entry.url,
     authType: entry.auth,
     version: entry.version,
@@ -160,8 +178,11 @@ async function main() {
   const report = [];
   const records = { registry: [], approvals: [] };
   for (const entry of entries) {
-    const result = args.probe ? await probe(entry, discoverMcpOAuth) : { status: "skipped" };
-    const matches = !args.probe || probeMatches(entry, result);
+    // A per-user link is the only real endpoint, so there is nothing shared to probe.
+    const result = !args.probe ? { status: "skipped" }
+      : addressCredential(entry) === "link" ? { status: "skipped", detail: "per-user link" }
+        : await probe(entry, discoverMcpOAuth);
+    const matches = result.status === "skipped" || probeMatches(entry, result);
     const row = { id: entry.id, auth: entry.auth, url: entry.url, probe: result, packed: false };
     if (!matches) {
       row.reason = `declared auth ${entry.auth} does not match probe ${result.status}`;

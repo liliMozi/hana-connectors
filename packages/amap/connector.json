@@ -1,0 +1,21 @@
+{
+  "id": "amap",
+  "name": "高德地图",
+  "description": "地点搜索、路线规划、天气与周边查询。",
+  "transport": "streamable-http",
+  "url": "https://mcp.amap.com/mcp",
+  "authType": "none",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "credentials": [
+    {
+      "id": "key",
+      "label": "Key",
+      "target": {
+        "type": "query",
+        "name": "key"
+      },
+      "getUrl": "https://console.amap.com/dev/key/app"
+    }
+  ]
+}

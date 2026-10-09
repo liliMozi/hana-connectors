@@ -17,6 +17,18 @@
     "format": "png",
     "sourceSize": 144
   },
+  "baidu-map.png": {
+    "from": "https://github.com/baidu-maps.png?size=460",
+    "kind": "iconUrl",
+    "format": "png",
+    "sourceSize": 256
+  },
+  "baidu.png": {
+    "from": "https://psstatic.cdn.bcebos.com/video/wiseindex/aa6eef91f8b5b1a33b454c401_1660835115000.png",
+    "kind": "apple-touch-icon",
+    "format": "png",
+    "sourceSize": 1024
+  },
   "bailian.png": {
     "from": "https://github.com/aliyun.png?size=460",
     "kind": "iconUrl",
@@ -40,6 +52,12 @@
     "kind": "icon",
     "format": "png",
     "sourceSize": 192
+  },
+  "dingtalk.png": {
+    "from": "https://gw.alicdn.com/imgextra/i3/O1CN014ZbI6ZTEhdC0ttN2_!!6000000003783-2-tps-444-444.png",
+    "kind": "icon",
+    "format": "png",
+    "sourceSize": 444
   },
   "dropbox.png": {
     "from": "https://github.com/dropbox.png?size=460",
@@ -131,6 +149,12 @@
     "format": "png",
     "sourceSize": 128
   },
+  "modelscope.png": {
+    "from": "https://g.alicdn.com/sail-web/maas/2.13.162/favicon/128.ico",
+    "kind": "icon",
+    "format": "raw",
+    "sourceSize": 128
+  },
   "monday.png": {
     "from": "https://cdn.prod.website-files.com/656da6fea306219773d04208/65af6bd6e742d497b5f23f69_645898132bbaac20f1963919_256x256.png",
     "kind": "apple-touch-icon",
@@ -208,6 +232,12 @@
     "kind": "iconUrl",
     "format": "png",
     "sourceSize": 207
+  },
+  "tencent-map.png": {
+    "from": "https://developer.qcloudimg.com/mcp/site_icon/ed814b00ef52a543364004e4d0b7bd9a.png",
+    "kind": "iconUrl",
+    "format": "png",
+    "sourceSize": 2048
   },
   "todoist.png": {
     "from": "https://www.todoist.com/static/android-chrome-256x256.png",

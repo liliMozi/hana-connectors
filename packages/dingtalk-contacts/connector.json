@@ -1,0 +1,20 @@
+{
+  "id": "dingtalk-contacts",
+  "name": "钉钉通讯录",
+  "description": "查询组织成员与部门。",
+  "transport": "streamable-http",
+  "url": "https://mcp-gw.dingtalk.com",
+  "authType": "none",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "credentials": [
+    {
+      "id": "link",
+      "label": "专属链接",
+      "target": {
+        "type": "url"
+      },
+      "getUrl": "https://mcp.dingtalk.com"
+    }
+  ]
+}

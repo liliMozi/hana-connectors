@@ -527,6 +527,213 @@
           "getUrl": "https://bigmodel.cn/usercenter/proj-mgmt/apikeys"
         }
       ]
+    },
+    {
+      "id": "tencent-map",
+      "name": "腾讯位置服务",
+      "auth": "none",
+      "url": "https://mcp.map.qq.com/mcp?format=0",
+      "homepage": "https://lbs.qq.com",
+      "version": "1.0.0",
+      "icon": "icons/tencent-map.png",
+      "description": "地点搜索、路线规划、周边与天气查询。",
+      "credentials": [
+        {
+          "id": "key",
+          "label": "Key",
+          "target": {
+            "type": "query",
+            "name": "key"
+          },
+          "getUrl": "https://lbs.qq.com/dev/console/application/mine"
+        }
+      ],
+      "iconUrl": "https://developer.qcloudimg.com/mcp/site_icon/ed814b00ef52a543364004e4d0b7bd9a.png"
+    },
+    {
+      "id": "amap",
+      "name": "高德地图",
+      "auth": "none",
+      "url": "https://mcp.amap.com/mcp",
+      "homepage": "https://lbs.amap.com",
+      "version": "1.0.0",
+      "icon": "icons/amap.png",
+      "description": "地点搜索、路线规划、天气与周边查询。",
+      "credentials": [
+        {
+          "id": "key",
+          "label": "Key",
+          "target": {
+            "type": "query",
+            "name": "key"
+          },
+          "getUrl": "https://console.amap.com/dev/key/app"
+        }
+      ]
+    },
+    {
+      "id": "baidu-map",
+      "name": "百度地图",
+      "auth": "none",
+      "url": "https://mcp.map.baidu.com/mcp",
+      "homepage": "https://lbsyun.baidu.com",
+      "version": "1.0.0",
+      "icon": "icons/baidu-map.png",
+      "description": "地点检索、路线规划、实时路况与天气查询。",
+      "credentials": [
+        {
+          "id": "key",
+          "label": "AK",
+          "target": {
+            "type": "query",
+            "name": "ak"
+          },
+          "getUrl": "https://lbsyun.baidu.com/apiconsole/key"
+        }
+      ],
+      "iconUrl": "https://github.com/baidu-maps.png?size=460"
+    },
+    {
+      "id": "baidu-ai-search",
+      "name": "百度 AI 搜索",
+      "auth": "none",
+      "transport": "sse",
+      "url": "https://appbuilder.baidu.com/v2/ai_search/mcp/sse",
+      "homepage": "https://www.baidu.com",
+      "version": "1.0.0",
+      "icon": "icons/baidu.png",
+      "description": "用百度搜索全网实时信息。",
+      "credentials": [
+        {
+          "id": "key",
+          "label": "API Key",
+          "target": {
+            "type": "query",
+            "name": "api_key"
+          },
+          "getUrl": "https://console.bce.baidu.com/iam/#/iam/apikey/list"
+        }
+      ]
+    },
+    {
+      "id": "dingtalk-docs",
+      "name": "钉钉文档",
+      "auth": "none",
+      "url": "https://mcp-gw.dingtalk.com",
+      "homepage": "https://www.dingtalk.com",
+      "version": "1.0.0",
+      "icon": "icons/dingtalk.png",
+      "description": "搜索、阅读和编辑钉钉文档。",
+      "credentials": [
+        {
+          "id": "link",
+          "label": "专属链接",
+          "target": {
+            "type": "url"
+          },
+          "getUrl": "https://mcp.dingtalk.com"
+        }
+      ]
+    },
+    {
+      "id": "dingtalk-calendar",
+      "name": "钉钉日历",
+      "auth": "none",
+      "url": "https://mcp-gw.dingtalk.com",
+      "homepage": "https://www.dingtalk.com",
+      "version": "1.0.0",
+      "icon": "icons/dingtalk.png",
+      "description": "查看和创建钉钉日程。",
+      "credentials": [
+        {
+          "id": "link",
+          "label": "专属链接",
+          "target": {
+            "type": "url"
+          },
+          "getUrl": "https://mcp.dingtalk.com"
+        }
+      ]
+    },
+    {
+      "id": "dingtalk-todo",
+      "name": "钉钉待办",
+      "auth": "none",
+      "url": "https://mcp-gw.dingtalk.com",
+      "homepage": "https://www.dingtalk.com",
+      "version": "1.0.0",
+      "icon": "icons/dingtalk.png",
+      "description": "查看、创建和完成钉钉待办。",
+      "credentials": [
+        {
+          "id": "link",
+          "label": "专属链接",
+          "target": {
+            "type": "url"
+          },
+          "getUrl": "https://mcp.dingtalk.com"
+        }
+      ]
+    },
+    {
+      "id": "dingtalk-contacts",
+      "name": "钉钉通讯录",
+      "auth": "none",
+      "url": "https://mcp-gw.dingtalk.com",
+      "homepage": "https://www.dingtalk.com",
+      "version": "1.0.0",
+      "icon": "icons/dingtalk.png",
+      "description": "查询组织成员与部门。",
+      "credentials": [
+        {
+          "id": "link",
+          "label": "专属链接",
+          "target": {
+            "type": "url"
+          },
+          "getUrl": "https://mcp.dingtalk.com"
+        }
+      ]
+    },
+    {
+      "id": "dingtalk-ai-table",
+      "name": "钉钉 AI 表格",
+      "auth": "none",
+      "url": "https://mcp-gw.dingtalk.com",
+      "homepage": "https://www.dingtalk.com",
+      "version": "1.0.0",
+      "icon": "icons/dingtalk.png",
+      "description": "读写钉钉 AI 表格中的数据。",
+      "credentials": [
+        {
+          "id": "link",
+          "label": "专属链接",
+          "target": {
+            "type": "url"
+          },
+          "getUrl": "https://mcp.dingtalk.com"
+        }
+      ]
+    },
+    {
+      "id": "modelscope",
+      "name": "魔搭 MCP",
+      "auth": "none",
+      "url": "https://www.modelscope.cn",
+      "homepage": "https://www.modelscope.cn",
+      "version": "1.0.0",
+      "icon": "icons/modelscope.png",
+      "description": "接入魔搭 MCP 广场上的托管服务。",
+      "credentials": [
+        {
+          "id": "link",
+          "label": "专属链接",
+          "target": {
+            "type": "url"
+          },
+          "getUrl": "https://www.modelscope.cn/mcp"
+        }
+      ]
     }
   ],
   "pending": [
@@ -541,6 +748,11 @@
       "description": "阅读和提问 GitHub 公开仓库的结构化文档。",
       "iconUrl": "https://deepwiki.com/apple-touch-icon.png",
       "reason": "icon unavailable: deepwiki.com returns HTTP 429"
+    },
+    {
+      "id": "feishu",
+      "name": "飞书",
+      "reason": "personal remote MCP is marked not recommended by Feishu; the developer route needs app credentials"
     }
   ]
 }

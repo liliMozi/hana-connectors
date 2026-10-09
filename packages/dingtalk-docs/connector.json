@@ -1,0 +1,20 @@
+{
+  "id": "dingtalk-docs",
+  "name": "钉钉文档",
+  "description": "搜索、阅读和编辑钉钉文档。",
+  "transport": "streamable-http",
+  "url": "https://mcp-gw.dingtalk.com",
+  "authType": "none",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "credentials": [
+    {
+      "id": "link",
+      "label": "专属链接",
+      "target": {
+        "type": "url"
+      },
+      "getUrl": "https://mcp.dingtalk.com"
+    }
+  ]
+}

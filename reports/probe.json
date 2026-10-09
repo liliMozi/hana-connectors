@@ -558,5 +558,127 @@
     "packed": true,
     "zip": "connector-zhipu-zread-1.0.0.zip",
     "sha256": "992d08b5af62d62fcc17c32a282f49fe2679bfb40fc12632dcf72a4853aa55f8"
+  },
+  {
+    "id": "tencent-map",
+    "auth": "none",
+    "url": "https://mcp.map.qq.com/mcp?format=0",
+    "probe": {
+      "status": "open",
+      "httpStatus": 200
+    },
+    "packed": true,
+    "zip": "connector-tencent-map-1.0.0.zip",
+    "sha256": "8d65fe0701a56260fc3a038001ca1d24da450f04a2994a239ad3f9267ed972ff"
+  },
+  {
+    "id": "amap",
+    "auth": "none",
+    "url": "https://mcp.amap.com/mcp",
+    "probe": {
+      "status": "open",
+      "httpStatus": 200
+    },
+    "packed": true,
+    "zip": "connector-amap-1.0.0.zip",
+    "sha256": "33a3d4f56be7c435ad86e90f5f9cb09335fd540c840b165ab6002a550965273f"
+  },
+  {
+    "id": "baidu-map",
+    "auth": "none",
+    "url": "https://mcp.map.baidu.com/mcp",
+    "probe": {
+      "status": "error",
+      "httpStatus": 400,
+      "detail": "unexpected HTTP 400"
+    },
+    "packed": true,
+    "zip": "connector-baidu-map-1.0.0.zip",
+    "sha256": "7fbc5501e3d6944212da664acda1f3650ac3b5b89df5ad45d452ba9868b81b5d"
+  },
+  {
+    "id": "baidu-ai-search",
+    "auth": "none",
+    "url": "https://appbuilder.baidu.com/v2/ai_search/mcp/sse",
+    "probe": {
+      "status": "auth-required",
+      "httpStatus": 401,
+      "detail": "Unable to discover MCP OAuth protected resource metadata"
+    },
+    "packed": true,
+    "zip": "connector-baidu-ai-search-1.0.0.zip",
+    "sha256": "a14ecda1b3bafea5626659d476ea3e6458a968c55c2b27965df05443a3e69d3a"
+  },
+  {
+    "id": "dingtalk-docs",
+    "auth": "none",
+    "url": "https://mcp-gw.dingtalk.com",
+    "probe": {
+      "status": "skipped",
+      "detail": "per-user link"
+    },
+    "packed": true,
+    "zip": "connector-dingtalk-docs-1.0.0.zip",
+    "sha256": "de3a7f00cfb6cf988b285373d23080fc49b8a11bd6481c6c772a63c2d6ad73ce"
+  },
+  {
+    "id": "dingtalk-calendar",
+    "auth": "none",
+    "url": "https://mcp-gw.dingtalk.com",
+    "probe": {
+      "status": "skipped",
+      "detail": "per-user link"
+    },
+    "packed": true,
+    "zip": "connector-dingtalk-calendar-1.0.0.zip",
+    "sha256": "7f6b90257f0c7d8192fd5453c495e66bf99a0c49fb8469b115abe1ebcbf60ca8"
+  },
+  {
+    "id": "dingtalk-todo",
+    "auth": "none",
+    "url": "https://mcp-gw.dingtalk.com",
+    "probe": {
+      "status": "skipped",
+      "detail": "per-user link"
+    },
+    "packed": true,
+    "zip": "connector-dingtalk-todo-1.0.0.zip",
+    "sha256": "3eb08df5791254ae5360ae9f2dd23694c7d8180c7314ae21baf015bccca5b401"
+  },
+  {
+    "id": "dingtalk-contacts",
+    "auth": "none",
+    "url": "https://mcp-gw.dingtalk.com",
+    "probe": {
+      "status": "skipped",
+      "detail": "per-user link"
+    },
+    "packed": true,
+    "zip": "connector-dingtalk-contacts-1.0.0.zip",
+    "sha256": "463672dc086337dcda3ef9931c362fbb797f2e3e645671424bf308428a2bc766"
+  },
+  {
+    "id": "dingtalk-ai-table",
+    "auth": "none",
+    "url": "https://mcp-gw.dingtalk.com",
+    "probe": {
+      "status": "skipped",
+      "detail": "per-user link"
+    },
+    "packed": true,
+    "zip": "connector-dingtalk-ai-table-1.0.0.zip",
+    "sha256": "d3f7ae7b65d7b58c539c65ecd82a83442592d2f86f1528ec4927e8119e6108b0"
+  },
+  {
+    "id": "modelscope",
+    "auth": "none",
+    "url": "https://www.modelscope.cn",
+    "probe": {
+      "status": "skipped",
+      "detail": "per-user link"
+    },
+    "packed": true,
+    "zip": "connector-modelscope-1.0.0.zip",
+    "sha256": "f5560cea71f58b0ff84d6ebdc1b03af77e7c182d2ea175af1386cfef9bc5ca8b"
   }
 ]

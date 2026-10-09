@@ -1,0 +1,20 @@
+{
+  "id": "modelscope",
+  "name": "魔搭 MCP",
+  "description": "接入魔搭 MCP 广场上的托管服务。",
+  "transport": "streamable-http",
+  "url": "https://www.modelscope.cn",
+  "authType": "none",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "credentials": [
+    {
+      "id": "link",
+      "label": "专属链接",
+      "target": {
+        "type": "url"
+      },
+      "getUrl": "https://www.modelscope.cn/mcp"
+    }
+  ]
+}

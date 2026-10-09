@@ -1,0 +1,21 @@
+{
+  "id": "baidu-map",
+  "name": "百度地图",
+  "description": "地点检索、路线规划、实时路况与天气查询。",
+  "transport": "streamable-http",
+  "url": "https://mcp.map.baidu.com/mcp",
+  "authType": "none",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "credentials": [
+    {
+      "id": "key",
+      "label": "AK",
+      "target": {
+        "type": "query",
+        "name": "ak"
+      },
+      "getUrl": "https://lbsyun.baidu.com/apiconsole/key"
+    }
+  ]
+}

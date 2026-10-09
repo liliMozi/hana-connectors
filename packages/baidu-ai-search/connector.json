@@ -1,0 +1,21 @@
+{
+  "id": "baidu-ai-search",
+  "name": "百度 AI 搜索",
+  "description": "用百度搜索全网实时信息。",
+  "transport": "sse",
+  "url": "https://appbuilder.baidu.com/v2/ai_search/mcp/sse",
+  "authType": "none",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "credentials": [
+    {
+      "id": "key",
+      "label": "API Key",
+      "target": {
+        "type": "query",
+        "name": "api_key"
+      },
+      "getUrl": "https://console.bce.baidu.com/iam/#/iam/apikey/list"
+    }
+  ]
+}

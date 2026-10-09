@@ -1,0 +1,20 @@
+{
+  "id": "dingtalk-todo",
+  "name": "钉钉待办",
+  "description": "查看、创建和完成钉钉待办。",
+  "transport": "streamable-http",
+  "url": "https://mcp-gw.dingtalk.com",
+  "authType": "none",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "credentials": [
+    {
+      "id": "link",
+      "label": "专属链接",
+      "target": {
+        "type": "url"
+      },
+      "getUrl": "https://mcp.dingtalk.com"
+    }
+  ]
+}
