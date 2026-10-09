@@ -1,0 +1,10 @@
+{
+  "id": "notion",
+  "name": "Notion",
+  "description": "搜索、阅读和编辑你的 Notion 页面与数据库。",
+  "transport": "streamable-http",
+  "url": "https://mcp.notion.com/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

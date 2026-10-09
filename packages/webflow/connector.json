@@ -1,0 +1,10 @@
+{
+  "id": "webflow",
+  "name": "Webflow",
+  "description": "管理 Webflow 站点、页面与 CMS 内容。",
+  "transport": "streamable-http",
+  "url": "https://mcp.webflow.com/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

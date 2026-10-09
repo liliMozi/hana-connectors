@@ -1,0 +1,10 @@
+{
+  "id": "cloudflare-bindings",
+  "name": "Cloudflare Workers",
+  "description": "管理 Cloudflare Workers 与 KV、R2、D1 等存储资源。",
+  "transport": "streamable-http",
+  "url": "https://bindings.mcp.cloudflare.com/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

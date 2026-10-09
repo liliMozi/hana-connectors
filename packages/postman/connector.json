@@ -1,0 +1,10 @@
+{
+  "id": "postman",
+  "name": "Postman",
+  "description": "管理 Postman 的工作区、集合、环境与 API。",
+  "transport": "streamable-http",
+  "url": "https://mcp.postman.com/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

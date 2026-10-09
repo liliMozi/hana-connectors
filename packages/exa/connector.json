@@ -1,0 +1,10 @@
+{
+  "id": "exa",
+  "name": "Exa",
+  "description": "面向 AI 的网页搜索与网页内容抓取。",
+  "transport": "streamable-http",
+  "url": "https://mcp.exa.ai/mcp",
+  "authType": "none",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

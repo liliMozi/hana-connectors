@@ -1,0 +1,10 @@
+{
+  "id": "dropbox",
+  "name": "Dropbox",
+  "description": "搜索和读取你 Dropbox 里的文件。",
+  "transport": "streamable-http",
+  "url": "https://mcp.dropbox.com/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

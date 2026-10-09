@@ -1,0 +1,10 @@
+{
+  "id": "semgrep",
+  "name": "Semgrep",
+  "description": "扫描代码中的安全漏洞与问题。",
+  "transport": "streamable-http",
+  "url": "https://mcp.semgrep.ai/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

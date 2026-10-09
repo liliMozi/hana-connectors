@@ -1,0 +1,20 @@
+{
+  "id": "github",
+  "name": "GitHub",
+  "description": "管理 GitHub 仓库、Issue、PR 与 Actions。安装后填入个人访问令牌。",
+  "transport": "streamable-http",
+  "url": "https://api.githubcopilot.com/mcp/",
+  "authType": "bearer",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "credentials": [
+    {
+      "id": "token",
+      "label": "访问令牌",
+      "target": {
+        "type": "bearer"
+      },
+      "getUrl": "https://github.com/settings/personal-access-tokens"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "zhipu-zread",
+  "name": "智谱 开源仓库阅读",
+  "description": "阅读 GitHub 开源仓库的文档、结构与代码。安装后填入智谱 API Key。",
+  "transport": "streamable-http",
+  "url": "https://open.bigmodel.cn/api/mcp/zread/mcp",
+  "authType": "bearer",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "credentials": [
+    {
+      "id": "apiKey",
+      "label": "API Key",
+      "target": {
+        "type": "bearer"
+      },
+      "getUrl": "https://bigmodel.cn/usercenter/proj-mgmt/apikeys"
+    }
+  ]
+}

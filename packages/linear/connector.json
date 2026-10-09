@@ -1,0 +1,10 @@
+{
+  "id": "linear",
+  "name": "Linear",
+  "description": "查看和管理 Linear 里的 Issue、项目与周期。",
+  "transport": "streamable-http",
+  "url": "https://mcp.linear.app/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

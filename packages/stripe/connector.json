@@ -1,0 +1,10 @@
+{
+  "id": "stripe",
+  "name": "Stripe",
+  "description": "查询和管理 Stripe 的客户、付款、订阅与发票。",
+  "transport": "streamable-http",
+  "url": "https://mcp.stripe.com",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

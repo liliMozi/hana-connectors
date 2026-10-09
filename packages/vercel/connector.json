@@ -1,0 +1,10 @@
+{
+  "id": "vercel",
+  "name": "Vercel",
+  "description": "查看 Vercel 项目、部署与日志，并检索 Vercel 文档。",
+  "transport": "streamable-http",
+  "url": "https://mcp.vercel.com",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

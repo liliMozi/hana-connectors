@@ -1,0 +1,10 @@
+{
+  "id": "netlify",
+  "name": "Netlify",
+  "description": "创建、部署和管理 Netlify 站点。",
+  "transport": "streamable-http",
+  "url": "https://netlify-mcp.netlify.app/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

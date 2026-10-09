@@ -1,0 +1,10 @@
+{
+  "id": "wix",
+  "name": "Wix",
+  "description": "管理 Wix 站点、商品、预约与内容。",
+  "transport": "streamable-http",
+  "url": "https://mcp.wix.com/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

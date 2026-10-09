@@ -1,0 +1,10 @@
+{
+  "id": "aws-knowledge",
+  "name": "AWS Knowledge",
+  "description": "检索 AWS 官方文档、最佳实践与区域可用性信息。",
+  "transport": "streamable-http",
+  "url": "https://knowledge-mcp.global.api.aws",
+  "authType": "none",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

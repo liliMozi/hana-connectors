@@ -1,0 +1,10 @@
+{
+  "id": "mapbox",
+  "name": "Mapbox",
+  "description": "地点搜索、路线规划、等时圈与静态地图。",
+  "transport": "streamable-http",
+  "url": "https://mcp.mapbox.com/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

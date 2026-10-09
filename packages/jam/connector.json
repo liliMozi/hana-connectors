@@ -1,0 +1,10 @@
+{
+  "id": "jam",
+  "name": "Jam",
+  "description": "读取 Jam 缺陷报告里的录屏、日志与网络请求。",
+  "transport": "streamable-http",
+  "url": "https://mcp.jam.dev/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

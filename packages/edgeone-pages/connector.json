@@ -1,0 +1,10 @@
+{
+  "id": "edgeone-pages",
+  "name": "腾讯云 EdgeOne Pages",
+  "description": "把网页一键部署到 EdgeOne Pages，生成可公开访问的链接。",
+  "transport": "streamable-http",
+  "url": "https://mcp-on-edge.edgeone.app/mcp-server",
+  "authType": "none",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

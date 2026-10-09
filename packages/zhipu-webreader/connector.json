@@ -1,0 +1,20 @@
+{
+  "id": "zhipu-webreader",
+  "name": "智谱 网页读取",
+  "description": "抓取网页正文与结构化内容。安装后填入智谱 API Key。",
+  "transport": "streamable-http",
+  "url": "https://open.bigmodel.cn/api/mcp/web_reader/mcp",
+  "authType": "bearer",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "credentials": [
+    {
+      "id": "apiKey",
+      "label": "API Key",
+      "target": {
+        "type": "bearer"
+      },
+      "getUrl": "https://bigmodel.cn/usercenter/proj-mgmt/apikeys"
+    }
+  ]
+}

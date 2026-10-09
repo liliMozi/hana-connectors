@@ -1,0 +1,10 @@
+{
+  "id": "paypal",
+  "name": "PayPal",
+  "description": "管理 PayPal 的发票、订单、交易与订阅。",
+  "transport": "streamable-http",
+  "url": "https://mcp.paypal.com/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

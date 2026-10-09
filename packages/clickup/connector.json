@@ -1,0 +1,10 @@
+{
+  "id": "clickup",
+  "name": "ClickUp",
+  "description": "查看和管理 ClickUp 的任务、文档与空间。",
+  "transport": "streamable-http",
+  "url": "https://mcp.clickup.com/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

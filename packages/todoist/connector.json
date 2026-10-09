@@ -1,0 +1,10 @@
+{
+  "id": "todoist",
+  "name": "Todoist",
+  "description": "查看、添加和整理 Todoist 里的任务与项目。",
+  "transport": "streamable-http",
+  "url": "https://ai.todoist.net/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

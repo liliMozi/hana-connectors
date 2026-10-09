@@ -1,0 +1,10 @@
+{
+  "id": "gitlab",
+  "name": "GitLab",
+  "description": "查看 GitLab.com 的项目、Issue、合并请求与流水线。",
+  "transport": "streamable-http",
+  "url": "https://gitlab.com/api/v4/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

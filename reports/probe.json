@@ -1,0 +1,562 @@
+[
+  {
+    "id": "context7",
+    "auth": "none",
+    "url": "https://mcp.context7.com/mcp",
+    "probe": {
+      "status": "open",
+      "httpStatus": 200
+    },
+    "packed": true,
+    "zip": "connector-context7-1.0.0.zip",
+    "sha256": "5acded98fcc6824495d6a30bfabc6c8989b74a95031b9490722de429ebc85cc8"
+  },
+  {
+    "id": "microsoft-learn",
+    "auth": "none",
+    "url": "https://learn.microsoft.com/api/mcp",
+    "probe": {
+      "status": "open",
+      "httpStatus": 200
+    },
+    "packed": true,
+    "zip": "connector-microsoft-learn-1.0.0.zip",
+    "sha256": "5ea8a9d3cdf6f919b66a72b2fb610928b1b844b4ce62edde313cb9e14958a23b"
+  },
+  {
+    "id": "aws-knowledge",
+    "auth": "none",
+    "url": "https://knowledge-mcp.global.api.aws",
+    "probe": {
+      "status": "open",
+      "httpStatus": 200
+    },
+    "packed": true,
+    "zip": "connector-aws-knowledge-1.0.0.zip",
+    "sha256": "00738005fe62d568ab076090c19373c3da4d9ca7ffb5ca427fab93b013e872bb"
+  },
+  {
+    "id": "cloudflare-docs",
+    "auth": "none",
+    "url": "https://docs.mcp.cloudflare.com/mcp",
+    "probe": {
+      "status": "open",
+      "httpStatus": 200
+    },
+    "packed": true,
+    "zip": "connector-cloudflare-docs-1.0.0.zip",
+    "sha256": "ee88c125c66884a069d9bc368a02cb6a42fce2d44099383907e3ddffdaeaf357"
+  },
+  {
+    "id": "huggingface",
+    "auth": "none",
+    "url": "https://huggingface.co/mcp",
+    "probe": {
+      "status": "open",
+      "httpStatus": 200
+    },
+    "packed": true,
+    "zip": "connector-huggingface-1.0.0.zip",
+    "sha256": "dbb379aac1916cd4e746b1f44b6f205943f9840a95745d452c010ea4b69e6f13"
+  },
+  {
+    "id": "exa",
+    "auth": "none",
+    "url": "https://mcp.exa.ai/mcp",
+    "probe": {
+      "status": "open",
+      "httpStatus": 200
+    },
+    "packed": true,
+    "zip": "connector-exa-1.0.0.zip",
+    "sha256": "170fdbf8ba87397a3c1b4132b0ffd990c81895fdfdf8be072d899a7f773d15a0"
+  },
+  {
+    "id": "jina",
+    "auth": "none",
+    "url": "https://mcp.jina.ai/v1",
+    "probe": {
+      "status": "open",
+      "httpStatus": 200
+    },
+    "packed": true,
+    "zip": "connector-jina-1.0.0.zip",
+    "sha256": "64cb11bfefa10322a10c973650c97c7ec7bc343b6cb2baba457406e638fe4af7"
+  },
+  {
+    "id": "notion",
+    "auth": "oauth",
+    "url": "https://mcp.notion.com/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://mcp.notion.com"
+    },
+    "packed": true,
+    "zip": "connector-notion-1.0.0.zip",
+    "sha256": "816b06b213d8f67eedd394a5c79c2932930c55acf1cd65e0c43b40b2705f8c03"
+  },
+  {
+    "id": "linear",
+    "auth": "oauth",
+    "url": "https://mcp.linear.app/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://mcp.linear.app"
+    },
+    "packed": true,
+    "zip": "connector-linear-1.0.0.zip",
+    "sha256": "92a89be47855f9d3ed1cbf21541e69b06b1dcbb2e1a2cd9fc21d2b264afd6073"
+  },
+  {
+    "id": "sentry",
+    "auth": "oauth",
+    "url": "https://mcp.sentry.dev/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://mcp.sentry.dev"
+    },
+    "packed": true,
+    "zip": "connector-sentry-1.0.0.zip",
+    "sha256": "fb54bf90b410aae70ec685bf2cff321a16430025d1c4423e28536ed94c3d1b71"
+  },
+  {
+    "id": "stripe",
+    "auth": "oauth",
+    "url": "https://mcp.stripe.com",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://access.stripe.com/mcp"
+    },
+    "packed": true,
+    "zip": "connector-stripe-1.0.0.zip",
+    "sha256": "afca9cfbe28529165a10e1aad19fdb06c1a2032e202072dc6de77f5d11b5b692"
+  },
+  {
+    "id": "supabase",
+    "auth": "oauth",
+    "url": "https://mcp.supabase.com/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://api.supabase.com"
+    },
+    "packed": true,
+    "zip": "connector-supabase-1.0.0.zip",
+    "sha256": "0d10445c9bc4976b762b2347ff9330f95b8757dd80ff4b9c6cf7101d1aa3f8f2"
+  },
+  {
+    "id": "vercel",
+    "auth": "oauth",
+    "url": "https://mcp.vercel.com",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://vercel.com"
+    },
+    "packed": true,
+    "zip": "connector-vercel-1.0.0.zip",
+    "sha256": "6c01b7e5fec9cca5ad0207e1ff58e3ee2d1e9322a520574b77646c2ef5111441"
+  },
+  {
+    "id": "figma",
+    "auth": "oauth",
+    "url": "https://mcp.figma.com/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://api.figma.com"
+    },
+    "packed": true,
+    "zip": "connector-figma-1.0.0.zip",
+    "sha256": "0d3e7b731d745f7389ea36be7b98ac1daa7985cfdf554d4516c9e4a9b125b8af"
+  },
+  {
+    "id": "paypal",
+    "auth": "oauth",
+    "url": "https://mcp.paypal.com/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://mcp.paypal.com"
+    },
+    "packed": true,
+    "zip": "connector-paypal-1.0.0.zip",
+    "sha256": "e57233f97bf039504be3e06d63349274cfc26adaddf5b8323d67c4eb4c0d5e0d"
+  },
+  {
+    "id": "neon",
+    "auth": "oauth",
+    "url": "https://mcp.neon.tech/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://mcp.neon.tech"
+    },
+    "packed": true,
+    "zip": "connector-neon-1.0.0.zip",
+    "sha256": "3c92e377afeafc504f09c891a2fe7eb58b43d36aae81d7b7686af69e136d44b7"
+  },
+  {
+    "id": "netlify",
+    "auth": "oauth",
+    "url": "https://netlify-mcp.netlify.app/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://netlify-mcp.netlify.app/"
+    },
+    "packed": true,
+    "zip": "connector-netlify-1.0.0.zip",
+    "sha256": "a9677bb0a9c0d9d76bd4b661c2a9fc34599b6ad0180e54d787a0fb8b08eea233"
+  },
+  {
+    "id": "webflow",
+    "auth": "oauth",
+    "url": "https://mcp.webflow.com/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://mcp.webflow.com"
+    },
+    "packed": true,
+    "zip": "connector-webflow-1.0.0.zip",
+    "sha256": "9576b33e152096d4d814b3db871cda1bf069ace9349c39effe46cc7c89503a92"
+  },
+  {
+    "id": "wix",
+    "auth": "oauth",
+    "url": "https://mcp.wix.com/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://mcp.wix.com"
+    },
+    "packed": true,
+    "zip": "connector-wix-1.0.0.zip",
+    "sha256": "8f80f53f0e83cfa0e45be478ae3330d73cf10da32b85d5aebb777f462311d118"
+  },
+  {
+    "id": "intercom",
+    "auth": "oauth",
+    "url": "https://mcp.intercom.com/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://mcp.intercom.com"
+    },
+    "packed": true,
+    "zip": "connector-intercom-1.0.0.zip",
+    "sha256": "72a7ff19af7110da10e0e96c49d97127f2f653313fbb48d95546c361ceaa6a21"
+  },
+  {
+    "id": "square",
+    "auth": "oauth",
+    "url": "https://mcp.squareup.com/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://mcp.squareup.com"
+    },
+    "packed": true,
+    "zip": "connector-square-1.0.0.zip",
+    "sha256": "8737b4f237953b75e099dbb493bc00257154e48d3a0fbd3bc08d590121ec7c18"
+  },
+  {
+    "id": "monday",
+    "auth": "oauth",
+    "url": "https://mcp.monday.com/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://auth.monday.com/mcp"
+    },
+    "packed": true,
+    "zip": "connector-monday-1.0.0.zip",
+    "sha256": "3ae2595be6e6e2c18469b2f3622409c310cde03d661a90bd4c4389ea59c2a4d1"
+  },
+  {
+    "id": "cloudflare-bindings",
+    "auth": "oauth",
+    "url": "https://bindings.mcp.cloudflare.com/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://bindings.mcp.cloudflare.com"
+    },
+    "packed": true,
+    "zip": "connector-cloudflare-bindings-1.0.0.zip",
+    "sha256": "3585e644912a6a908aa2baa6fe0abd80fecda0bc357840697bc4ada61e0312db"
+  },
+  {
+    "id": "cloudflare-observability",
+    "auth": "oauth",
+    "url": "https://observability.mcp.cloudflare.com/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://observability.mcp.cloudflare.com"
+    },
+    "packed": true,
+    "zip": "connector-cloudflare-observability-1.0.0.zip",
+    "sha256": "7fcf9812fb3fc272cf844f80286ee96dca6b1f92abd66d46a489490806256e84"
+  },
+  {
+    "id": "prisma",
+    "auth": "oauth",
+    "url": "https://mcp.prisma.io/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://auth.prisma.io"
+    },
+    "packed": true,
+    "zip": "connector-prisma-1.0.0.zip",
+    "sha256": "82063e4b092f30494b0d94435c5052034597fe2f0dfe8973d411c561786ea431"
+  },
+  {
+    "id": "jam",
+    "auth": "oauth",
+    "url": "https://mcp.jam.dev/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://api.jam.dev"
+    },
+    "packed": true,
+    "zip": "connector-jam-1.0.0.zip",
+    "sha256": "44cbe7ff00f434f5d634119535bdb9fa8fa4f34fc3ac93f0a8bc017f14de94b2"
+  },
+  {
+    "id": "miro",
+    "auth": "oauth",
+    "url": "https://mcp.miro.com/",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://mcp.miro.com/"
+    },
+    "packed": true,
+    "zip": "connector-miro-1.0.0.zip",
+    "sha256": "efff724fe8cab3263581c38221461ffad43bd0a2c0e3f894162c098dddaa4f30"
+  },
+  {
+    "id": "clickup",
+    "auth": "oauth",
+    "url": "https://mcp.clickup.com/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://mcp.clickup.com"
+    },
+    "packed": true,
+    "zip": "connector-clickup-1.0.0.zip",
+    "sha256": "f3697a41f603b2a4be067b34dbdf4af098001e11a0f9fa5ba7bbe4a00b709773"
+  },
+  {
+    "id": "todoist",
+    "auth": "oauth",
+    "url": "https://ai.todoist.net/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://todoist.com"
+    },
+    "packed": true,
+    "zip": "connector-todoist-1.0.0.zip",
+    "sha256": "0c8c42b89257b8ba22ef96405f190b49239d528558a122d639de4120a79963fa"
+  },
+  {
+    "id": "gitlab",
+    "auth": "oauth",
+    "url": "https://gitlab.com/api/v4/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://gitlab.com"
+    },
+    "packed": true,
+    "zip": "connector-gitlab-1.0.0.zip",
+    "sha256": "ae49604d27a69bc7823494a3153f37df4cd28b18b0689b3a694085cd94fd9775"
+  },
+  {
+    "id": "dropbox",
+    "auth": "oauth",
+    "url": "https://mcp.dropbox.com/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://www.dropbox.com"
+    },
+    "packed": true,
+    "zip": "connector-dropbox-1.0.0.zip",
+    "sha256": "9326a0ef20e50c4b5af66e63647097f93faeff0e34c9391b41440fc1344d1cd7"
+  },
+  {
+    "id": "apify",
+    "auth": "oauth",
+    "url": "https://mcp.apify.com",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://console-backend.apify.com"
+    },
+    "packed": true,
+    "zip": "connector-apify-1.0.0.zip",
+    "sha256": "c17fd763bdd98dd1d0bb96eb1d2fac2bfefdffe2d49f0651c85a160e78381e1a"
+  },
+  {
+    "id": "postman",
+    "auth": "oauth",
+    "url": "https://mcp.postman.com/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://mcp.postman.com"
+    },
+    "packed": true,
+    "zip": "connector-postman-1.0.0.zip",
+    "sha256": "c09bcccb4b534e1019dae24a5d4c2b8fcc4bf78fbc49cf4effef0c467c9ca1a2"
+  },
+  {
+    "id": "mapbox",
+    "auth": "oauth",
+    "url": "https://mcp.mapbox.com/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://mcp.mapbox.com"
+    },
+    "packed": true,
+    "zip": "connector-mapbox-1.0.0.zip",
+    "sha256": "4e33cfe198af3dbf2c60048ed2ed347e4bfce43bbcfa0460e20d1cd83e5533c0"
+  },
+  {
+    "id": "semgrep",
+    "auth": "oauth",
+    "url": "https://mcp.semgrep.ai/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://login.semgrep.dev/"
+    },
+    "packed": true,
+    "zip": "connector-semgrep-1.0.0.zip",
+    "sha256": "bcf7c73e3839bc5881ecc1ebbcb3f092ff866ffb88e2b0826082cd9ec27ee947"
+  },
+  {
+    "id": "github",
+    "auth": "bearer",
+    "url": "https://api.githubcopilot.com/mcp/",
+    "probe": {
+      "status": "oauth-manual",
+      "httpStatus": 401,
+      "authorizationServer": "https://github.com/login/oauth"
+    },
+    "packed": true,
+    "zip": "connector-github-1.0.0.zip",
+    "sha256": "88570716d27ac614619050f4e13a5ba0736addef5e5234681470e59c77ec8e2e"
+  },
+  {
+    "id": "tencent-docs",
+    "auth": "oauth",
+    "url": "https://docs.qq.com/openapi/mcp",
+    "probe": {
+      "status": "oauth-dcr",
+      "httpStatus": 401,
+      "authorizationServer": "https://docs.qq.com"
+    },
+    "packed": true,
+    "zip": "connector-tencent-docs-1.0.0.zip",
+    "sha256": "4092c9c261335e0ea91f9709970651120208d4f1353b86c96d307282847d4f06"
+  },
+  {
+    "id": "edgeone-pages",
+    "auth": "none",
+    "url": "https://mcp-on-edge.edgeone.app/mcp-server",
+    "probe": {
+      "status": "open",
+      "httpStatus": 200
+    },
+    "packed": true,
+    "zip": "connector-edgeone-pages-1.0.0.zip",
+    "sha256": "3974400587c283d6d89c9fa1428addd3fe6357525fa617ab6846c4d259f669e9"
+  },
+  {
+    "id": "gitee",
+    "auth": "bearer",
+    "url": "https://api.gitee.com/mcp",
+    "probe": {
+      "status": "open",
+      "httpStatus": 200
+    },
+    "packed": true,
+    "zip": "connector-gitee-1.0.0.zip",
+    "sha256": "0b0b5cafd052dce32de46529a02dbbff816124ff0a842eb4fc379868b7aa53a2"
+  },
+  {
+    "id": "bailian-amap",
+    "auth": "bearer",
+    "url": "https://dashscope.aliyuncs.com/api/v1/mcps/amap-maps/mcp",
+    "probe": {
+      "status": "auth-required",
+      "httpStatus": 401,
+      "detail": "Unable to discover MCP OAuth protected resource metadata"
+    },
+    "packed": true,
+    "zip": "connector-bailian-amap-1.0.0.zip",
+    "sha256": "f803babeac992b765d6d60816de8dd3402d0f1d2833ce84fc49e76b38ec5ea84"
+  },
+  {
+    "id": "bailian-websearch",
+    "auth": "bearer",
+    "url": "https://dashscope.aliyuncs.com/api/v1/mcps/WebSearch/mcp",
+    "probe": {
+      "status": "auth-required",
+      "httpStatus": 401,
+      "detail": "Unable to discover MCP OAuth protected resource metadata"
+    },
+    "packed": true,
+    "zip": "connector-bailian-websearch-1.0.0.zip",
+    "sha256": "f4f7c02709e4001a364a8c1a2fef05ddd33b329e234955c6de1c6c8e109b4b5a"
+  },
+  {
+    "id": "zhipu-websearch",
+    "auth": "bearer",
+    "url": "https://open.bigmodel.cn/api/mcp/web_search_prime/mcp",
+    "probe": {
+      "status": "open",
+      "httpStatus": 200
+    },
+    "packed": true,
+    "zip": "connector-zhipu-websearch-1.0.0.zip",
+    "sha256": "e71be47e923f2200a634781b5fefba53a52d76e99de9203574c5f06347057998"
+  },
+  {
+    "id": "zhipu-webreader",
+    "auth": "bearer",
+    "url": "https://open.bigmodel.cn/api/mcp/web_reader/mcp",
+    "probe": {
+      "status": "open",
+      "httpStatus": 200
+    },
+    "packed": true,
+    "zip": "connector-zhipu-webreader-1.0.0.zip",
+    "sha256": "b89e6a18400b91569381361a7e1f84269779b6b5d16c40c05b49c3136fed3743"
+  },
+  {
+    "id": "zhipu-zread",
+    "auth": "bearer",
+    "url": "https://open.bigmodel.cn/api/mcp/zread/mcp",
+    "probe": {
+      "status": "open",
+      "httpStatus": 200
+    },
+    "packed": true,
+    "zip": "connector-zhipu-zread-1.0.0.zip",
+    "sha256": "992d08b5af62d62fcc17c32a282f49fe2679bfb40fc12632dcf72a4853aa55f8"
+  }
+]

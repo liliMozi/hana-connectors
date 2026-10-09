@@ -1,0 +1,10 @@
+{
+  "id": "prisma",
+  "name": "Prisma",
+  "description": "管理 Prisma Postgres 数据库、备份与连接。",
+  "transport": "streamable-http",
+  "url": "https://mcp.prisma.io/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

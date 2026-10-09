@@ -1,0 +1,10 @@
+{
+  "id": "huggingface",
+  "name": "Hugging Face",
+  "description": "搜索 Hugging Face 上的模型、数据集、Space 与论文。",
+  "transport": "streamable-http",
+  "url": "https://huggingface.co/mcp",
+  "authType": "none",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

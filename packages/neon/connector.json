@@ -1,0 +1,10 @@
+{
+  "id": "neon",
+  "name": "Neon",
+  "description": "管理 Neon Postgres 项目、分支与数据库查询。",
+  "transport": "streamable-http",
+  "url": "https://mcp.neon.tech/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

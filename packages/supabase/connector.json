@@ -1,0 +1,10 @@
+{
+  "id": "supabase",
+  "name": "Supabase",
+  "description": "管理 Supabase 项目、数据库、边缘函数与日志。",
+  "transport": "streamable-http",
+  "url": "https://mcp.supabase.com/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

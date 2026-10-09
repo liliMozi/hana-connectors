@@ -1,0 +1,10 @@
+{
+  "id": "apify",
+  "name": "Apify",
+  "description": "运行 Apify 上的爬虫与自动化 Actor，获取网页数据。",
+  "transport": "streamable-http",
+  "url": "https://mcp.apify.com",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

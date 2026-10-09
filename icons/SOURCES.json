@@ -1,0 +1,242 @@
+{
+  "amap.png": {
+    "from": "https://a.amap.com/pc/static/favicon.ico",
+    "kind": "icon",
+    "format": "raw",
+    "sourceSize": 64
+  },
+  "apify.png": {
+    "from": "https://apify.com/icon0.svg?icon0.0z-sy_vfu_0k9.svg?dpl=6ac72a6eb1",
+    "kind": "svg-icon",
+    "format": "svg",
+    "sourceSize": 5760
+  },
+  "aws-knowledge.png": {
+    "from": "https://aws.amazon.com/apple-touch-icon.png",
+    "kind": "apple-touch-icon (conventional)",
+    "format": "png",
+    "sourceSize": 144
+  },
+  "bailian.png": {
+    "from": "https://github.com/aliyun.png?size=460",
+    "kind": "iconUrl",
+    "format": "png",
+    "sourceSize": 320
+  },
+  "clickup.png": {
+    "from": "https://clickup.com/favicons/icon-512x512.png",
+    "kind": "manifest",
+    "format": "png",
+    "sourceSize": 512
+  },
+  "cloudflare.png": {
+    "from": "https://developers.cloudflare.com/favicon.png",
+    "kind": "icon",
+    "format": "png",
+    "sourceSize": 96
+  },
+  "context7.png": {
+    "from": "https://context7.com/docs/_favicons/light-192.png",
+    "kind": "icon",
+    "format": "png",
+    "sourceSize": 192
+  },
+  "dropbox.png": {
+    "from": "https://github.com/dropbox.png?size=460",
+    "kind": "iconUrl",
+    "format": "png",
+    "sourceSize": 304
+  },
+  "edgeone.png": {
+    "from": "https://edgeone.ai/128.png?123",
+    "kind": "icon",
+    "format": "png",
+    "sourceSize": 128
+  },
+  "exa.png": {
+    "from": "https://exa.ai/docs/_mintlify/favicons/exa-52/IXdJPX9fh2ANJEqv/_generated/favicon/android-chrome-192x192.png",
+    "kind": "icon",
+    "format": "png",
+    "sourceSize": 192
+  },
+  "figma.png": {
+    "from": "https://static.figma.com/app/icon/2/favicon.svg",
+    "kind": "svg-icon",
+    "format": "svg",
+    "sourceSize": 341
+  },
+  "gitee.png": {
+    "from": "https://gitee.com/favicon.ico",
+    "kind": "icon",
+    "format": "raw",
+    "sourceSize": 64
+  },
+  "github.png": {
+    "from": "https://github.githubassets.com/favicons/favicon.svg",
+    "kind": "svg-icon",
+    "format": "svg",
+    "sourceSize": 171
+  },
+  "gitlab.png": {
+    "from": "https://about.gitlab.com/images/ico/favicon-192x192.png",
+    "kind": "icon",
+    "format": "png",
+    "sourceSize": 192
+  },
+  "huggingface.png": {
+    "from": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+    "kind": "iconUrl",
+    "format": "svg",
+    "sourceSize": 507
+  },
+  "intercom.png": {
+    "from": "https://developers.intercom.com/assets/favicon.286f56791636e8382abf1d72b1e481c68874c05f76e399476b003e2da12d362a.8a5edab2.png",
+    "kind": "icon",
+    "format": "png",
+    "sourceSize": 232
+  },
+  "jam.png": {
+    "from": "https://framerusercontent.com/images/3zAY5a6TukbdTWkNAkTDO1Yqpc.svg",
+    "kind": "svg-icon",
+    "format": "svg",
+    "sourceSize": 341
+  },
+  "jina.png": {
+    "from": "https://jina.ai/icons/favicon-128x128.png",
+    "kind": "icon",
+    "format": "png",
+    "sourceSize": 128
+  },
+  "linear.png": {
+    "from": "https://linear.app/static/favicon.svg?v=2",
+    "kind": "svg-icon",
+    "format": "svg",
+    "sourceSize": 85
+  },
+  "mapbox.png": {
+    "from": "https://cdn.prod.website-files.com/6050a76fa6a633d5d54ae714/6050ac04955ff26c84dcb8c8_mapbox_favicon_256x256.png",
+    "kind": "apple-touch-icon",
+    "format": "png",
+    "sourceSize": 256
+  },
+  "microsoft-learn.png": {
+    "from": "https://learn.microsoft.com/apple-touch-icon.png",
+    "kind": "apple-touch-icon (conventional)",
+    "format": "png",
+    "sourceSize": 192
+  },
+  "miro.png": {
+    "from": "https://framerusercontent.com/images/6FBG66PBxjV2QFaDfIdUi5mi9A.png",
+    "kind": "icon",
+    "format": "png",
+    "sourceSize": 128
+  },
+  "monday.png": {
+    "from": "https://cdn.prod.website-files.com/656da6fea306219773d04208/65af6bd6e742d497b5f23f69_645898132bbaac20f1963919_256x256.png",
+    "kind": "apple-touch-icon",
+    "format": "png",
+    "sourceSize": 256
+  },
+  "neon.png": {
+    "from": "https://neon.com/favicon/favicon.svg",
+    "kind": "svg-icon",
+    "format": "svg",
+    "sourceSize": 960
+  },
+  "netlify.png": {
+    "from": "https://www.netlify.com/favicon/icon.svg",
+    "kind": "svg-icon",
+    "format": "svg",
+    "sourceSize": 171
+  },
+  "notion.png": {
+    "from": "https://www.notion.com/front-static/logo-ios.png",
+    "kind": "apple-touch-icon",
+    "format": "png",
+    "sourceSize": 512
+  },
+  "paypal.png": {
+    "from": "https://github.com/paypal.png?size=460",
+    "kind": "iconUrl",
+    "format": "png",
+    "sourceSize": 460
+  },
+  "postman.png": {
+    "from": "https://www.postman.com/_mk-www-next/icons/android-chrome-512x512.png",
+    "kind": "icon",
+    "format": "png",
+    "sourceSize": 512
+  },
+  "prisma.png": {
+    "from": "https://www.prisma.io/icon.svg?icon.33jj2rcm8g1fz.svg",
+    "kind": "svg-icon",
+    "format": "svg",
+    "sourceSize": 1408
+  },
+  "semgrep.png": {
+    "from": "https://semgrep.dev/build/assets/favicon-CIx-xpG_.svg",
+    "kind": "svg-icon",
+    "format": "svg",
+    "sourceSize": 2731
+  },
+  "sentry.png": {
+    "from": "https://github.com/getsentry.png?size=460",
+    "kind": "iconUrl",
+    "format": "png",
+    "sourceSize": 400
+  },
+  "square.png": {
+    "from": "https://github.com/square.png?size=460",
+    "kind": "iconUrl",
+    "format": "png",
+    "sourceSize": 234
+  },
+  "stripe.png": {
+    "from": "https://images.stripeassets.com/fzn2n1nzq965/1hgcBNd12BfT9VLgbId7By/01d91920114b124fb4cf6d448f9f06eb/favicon.svg",
+    "kind": "svg-icon",
+    "format": "svg",
+    "sourceSize": 2731
+  },
+  "supabase.png": {
+    "from": "https://supabase.com/favicon/favicon-196x196.png",
+    "kind": "icon",
+    "format": "png",
+    "sourceSize": 196
+  },
+  "tencent-docs.png": {
+    "from": "https://developer.qcloudimg.com/operation/attachment/900005/20260310-5b0356a0.png",
+    "kind": "iconUrl",
+    "format": "png",
+    "sourceSize": 207
+  },
+  "todoist.png": {
+    "from": "https://www.todoist.com/static/android-chrome-256x256.png",
+    "kind": "manifest",
+    "format": "png",
+    "sourceSize": 256
+  },
+  "vercel.png": {
+    "from": "https://py8fhxnkzwtsqdo9.public.blob.vercel-storage.com/front/favicon/vercel/android-chrome-512x512.png",
+    "kind": "manifest",
+    "format": "png",
+    "sourceSize": 512
+  },
+  "webflow.png": {
+    "from": "https://cdn.prod.website-files.com/686294e263eb7e215bd232f7/686d53d0446d4237b2f38c5f_webclip.png",
+    "kind": "apple-touch-icon",
+    "format": "png",
+    "sourceSize": 256
+  },
+  "wix.png": {
+    "from": "https://www.wix.com/favicon.ico",
+    "kind": "icon",
+    "format": "png",
+    "sourceSize": 192
+  },
+  "zhipu.png": {
+    "from": "https://www.zhipuai.cn/favicon.png",
+    "kind": "icon",
+    "format": "png",
+    "sourceSize": 96
+  }
+}

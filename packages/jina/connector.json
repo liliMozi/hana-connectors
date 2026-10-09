@@ -1,0 +1,10 @@
+{
+  "id": "jina",
+  "name": "Jina AI",
+  "description": "读取网页正文、网页搜索与学术检索。",
+  "transport": "streamable-http",
+  "url": "https://mcp.jina.ai/v1",
+  "authType": "none",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

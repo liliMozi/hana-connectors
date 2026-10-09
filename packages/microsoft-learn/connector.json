@@ -1,0 +1,10 @@
+{
+  "id": "microsoft-learn",
+  "name": "Microsoft Learn",
+  "description": "检索微软官方技术文档与代码示例。",
+  "transport": "streamable-http",
+  "url": "https://learn.microsoft.com/api/mcp",
+  "authType": "none",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

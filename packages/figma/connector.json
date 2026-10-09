@@ -1,0 +1,10 @@
+{
+  "id": "figma",
+  "name": "Figma",
+  "description": "读取 Figma 设计稿的结构、样式与变量。",
+  "transport": "streamable-http",
+  "url": "https://mcp.figma.com/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

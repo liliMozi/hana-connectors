@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "connectors": [
+    {
+      "id": "context7",
+      "name": "Context7",
+      "auth": "none",
+      "url": "https://mcp.context7.com/mcp",
+      "homepage": "https://context7.com",
+      "version": "1.0.0",
+      "icon": "icons/context7.png",
+      "description": "查询各类开源库与框架的最新文档和代码示例。",
+      "iconPage": "https://context7.com/docs"
+    },
+    {
+      "id": "microsoft-learn",
+      "name": "Microsoft Learn",
+      "auth": "none",
+      "url": "https://learn.microsoft.com/api/mcp",
+      "homepage": "https://learn.microsoft.com",
+      "version": "1.0.0",
+      "icon": "icons/microsoft-learn.png",
+      "description": "检索微软官方技术文档与代码示例。"
+    },
+    {
+      "id": "aws-knowledge",
+      "name": "AWS Knowledge",
+      "auth": "none",
+      "url": "https://knowledge-mcp.global.api.aws",
+      "homepage": "https://aws.amazon.com",
+      "version": "1.0.0",
+      "icon": "icons/aws-knowledge.png",
+      "description": "检索 AWS 官方文档、最佳实践与区域可用性信息。"
+    },
+    {
+      "id": "cloudflare-docs",
+      "name": "Cloudflare Docs",
+      "auth": "none",
+      "url": "https://docs.mcp.cloudflare.com/mcp",
+      "homepage": "https://developers.cloudflare.com",
+      "version": "1.0.0",
+      "icon": "icons/cloudflare.png",
+      "description": "检索 Cloudflare 开发者文档。"
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "auth": "none",
+      "url": "https://huggingface.co/mcp",
+      "homepage": "https://huggingface.co",
+      "version": "1.0.0",
+      "icon": "icons/huggingface.png",
+      "description": "搜索 Hugging Face 上的模型、数据集、Space 与论文。",
+      "iconUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+    },
+    {
+      "id": "exa",
+      "name": "Exa",
+      "auth": "none",
+      "url": "https://mcp.exa.ai/mcp",
+      "homepage": "https://exa.ai",
+      "version": "1.0.0",
+      "icon": "icons/exa.png",
+      "description": "面向 AI 的网页搜索与网页内容抓取。",
+      "iconPage": "https://docs.exa.ai"
+    },
+    {
+      "id": "jina",
+      "name": "Jina AI",
+      "auth": "none",
+      "url": "https://mcp.jina.ai/v1",
+      "homepage": "https://jina.ai",
+      "version": "1.0.0",
+      "icon": "icons/jina.png",
+      "description": "读取网页正文、网页搜索与学术检索。"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "auth": "oauth",
+      "url": "https://mcp.notion.com/mcp",
+      "homepage": "https://www.notion.so",
+      "version": "1.0.0",
+      "icon": "icons/notion.png",
+      "description": "搜索、阅读和编辑你的 Notion 页面与数据库。"
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "auth": "oauth",
+      "url": "https://mcp.linear.app/mcp",
+      "homepage": "https://linear.app",
+      "version": "1.0.0",
+      "icon": "icons/linear.png",
+      "description": "查看和管理 Linear 里的 Issue、项目与周期。"
+    },
+    {
+      "id": "sentry",
+      "name": "Sentry",
+      "auth": "oauth",
+      "url": "https://mcp.sentry.dev/mcp",
+      "homepage": "https://sentry.io",
+      "version": "1.0.0",
+      "icon": "icons/sentry.png",
+      "description": "查看 Sentry 里的错误、性能问题与发布信息。",
+      "iconPage": "https://docs.sentry.io",
+      "iconUrl": "https://github.com/getsentry.png?size=460"
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "auth": "oauth",
+      "url": "https://mcp.stripe.com",
+      "homepage": "https://stripe.com",
+      "version": "1.0.0",
+      "icon": "icons/stripe.png",
+      "description": "查询和管理 Stripe 的客户、付款、订阅与发票。"
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "auth": "oauth",
+      "url": "https://mcp.supabase.com/mcp",
+      "homepage": "https://supabase.com",
+      "version": "1.0.0",
+      "icon": "icons/supabase.png",
+      "description": "管理 Supabase 项目、数据库、边缘函数与日志。"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "auth": "oauth",
+      "url": "https://mcp.vercel.com",
+      "homepage": "https://vercel.com",
+      "version": "1.0.0",
+      "icon": "icons/vercel.png",
+      "description": "查看 Vercel 项目、部署与日志，并检索 Vercel 文档。"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "auth": "oauth",
+      "url": "https://mcp.figma.com/mcp",
+      "homepage": "https://www.figma.com",
+      "version": "1.0.0",
+      "icon": "icons/figma.png",
+      "description": "读取 Figma 设计稿的结构、样式与变量。"
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "auth": "oauth",
+      "url": "https://mcp.paypal.com/mcp",
+      "homepage": "https://www.paypal.com",
+      "version": "1.0.0",
+      "icon": "icons/paypal.png",
+      "description": "管理 PayPal 的发票、订单、交易与订阅。",
+      "iconPage": "https://developer.paypal.com",
+      "iconUrl": "https://github.com/paypal.png?size=460"
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "auth": "oauth",
+      "url": "https://mcp.neon.tech/mcp",
+      "homepage": "https://neon.com",
+      "version": "1.0.0",
+      "icon": "icons/neon.png",
+      "description": "管理 Neon Postgres 项目、分支与数据库查询。"
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "auth": "oauth",
+      "url": "https://netlify-mcp.netlify.app/mcp",
+      "homepage": "https://www.netlify.com",
+      "version": "1.0.0",
+      "icon": "icons/netlify.png",
+      "description": "创建、部署和管理 Netlify 站点。"
+    },
+    {
+      "id": "webflow",
+      "name": "Webflow",
+      "auth": "oauth",
+      "url": "https://mcp.webflow.com/mcp",
+      "homepage": "https://webflow.com",
+      "version": "1.0.0",
+      "icon": "icons/webflow.png",
+      "description": "管理 Webflow 站点、页面与 CMS 内容。"
+    },
+    {
+      "id": "wix",
+      "name": "Wix",
+      "auth": "oauth",
+      "url": "https://mcp.wix.com/mcp",
+      "homepage": "https://www.wix.com",
+      "version": "1.0.0",
+      "icon": "icons/wix.png",
+      "description": "管理 Wix 站点、商品、预约与内容。"
+    },
+    {
+      "id": "intercom",
+      "name": "Intercom",
+      "auth": "oauth",
+      "url": "https://mcp.intercom.com/mcp",
+      "homepage": "https://www.intercom.com",
+      "version": "1.0.0",
+      "icon": "icons/intercom.png",
+      "description": "查询 Intercom 的会话、联系人与客服数据。",
+      "iconPage": "https://developers.intercom.com"
+    },
+    {
+      "id": "square",
+      "name": "Square",
+      "auth": "oauth",
+      "url": "https://mcp.squareup.com/mcp",
+      "homepage": "https://squareup.com",
+      "version": "1.0.0",
+      "icon": "icons/square.png",
+      "description": "管理 Square 的商品、订单、付款与客户。",
+      "iconPage": "https://developer.squareup.com",
+      "iconUrl": "https://github.com/square.png?size=460"
+    },
+    {
+      "id": "monday",
+      "name": "monday.com",
+      "auth": "oauth",
+      "url": "https://mcp.monday.com/mcp",
+      "homepage": "https://monday.com",
+      "version": "1.0.0",
+      "icon": "icons/monday.png",
+      "description": "查看和更新 monday.com 的看板、条目与更新。"
+    },
+    {
+      "id": "cloudflare-bindings",
+      "name": "Cloudflare Workers",
+      "auth": "oauth",
+      "url": "https://bindings.mcp.cloudflare.com/mcp",
+      "homepage": "https://developers.cloudflare.com/workers",
+      "version": "1.0.0",
+      "icon": "icons/cloudflare.png",
+      "description": "管理 Cloudflare Workers 与 KV、R2、D1 等存储资源。"
+    },
+    {
+      "id": "cloudflare-observability",
+      "name": "Cloudflare Observability",
+      "auth": "oauth",
+      "url": "https://observability.mcp.cloudflare.com/mcp",
+      "homepage": "https://developers.cloudflare.com",
+      "version": "1.0.0",
+      "icon": "icons/cloudflare.png",
+      "description": "查询 Cloudflare Workers 的日志与分析数据。"
+    },
+    {
+      "id": "prisma",
+      "name": "Prisma",
+      "auth": "oauth",
+      "url": "https://mcp.prisma.io/mcp",
+      "homepage": "https://www.prisma.io",
+      "version": "1.0.0",
+      "icon": "icons/prisma.png",
+      "description": "管理 Prisma Postgres 数据库、备份与连接。"
+    },
+    {
+      "id": "jam",
+      "name": "Jam",
+      "auth": "oauth",
+      "url": "https://mcp.jam.dev/mcp",
+      "homepage": "https://jam.dev",
+      "version": "1.0.0",
+      "icon": "icons/jam.png",
+      "description": "读取 Jam 缺陷报告里的录屏、日志与网络请求。"
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "auth": "oauth",
+      "url": "https://mcp.miro.com/",
+      "homepage": "https://miro.com",
+      "version": "1.0.0",
+      "icon": "icons/miro.png",
+      "description": "读取和创建 Miro 白板上的内容。"
+    },
+    {
+      "id": "clickup",
+      "name": "ClickUp",
+      "auth": "oauth",
+      "url": "https://mcp.clickup.com/mcp",
+      "homepage": "https://clickup.com",
+      "version": "1.0.0",
+      "icon": "icons/clickup.png",
+      "description": "查看和管理 ClickUp 的任务、文档与空间。"
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "auth": "oauth",
+      "url": "https://ai.todoist.net/mcp",
+      "homepage": "https://www.todoist.com",
+      "version": "1.0.0",
+      "icon": "icons/todoist.png",
+      "description": "查看、添加和整理 Todoist 里的任务与项目。"
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "auth": "oauth",
+      "url": "https://gitlab.com/api/v4/mcp",
+      "homepage": "https://gitlab.com",
+      "version": "1.0.0",
+      "icon": "icons/gitlab.png",
+      "description": "查看 GitLab.com 的项目、Issue、合并请求与流水线。"
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "auth": "oauth",
+      "url": "https://mcp.dropbox.com/mcp",
+      "homepage": "https://www.dropbox.com",
+      "version": "1.0.0",
+      "icon": "icons/dropbox.png",
+      "description": "搜索和读取你 Dropbox 里的文件。",
+      "iconPage": "https://www.dropbox.com/developers",
+      "iconUrl": "https://github.com/dropbox.png?size=460"
+    },
+    {
+      "id": "apify",
+      "name": "Apify",
+      "auth": "oauth",
+      "url": "https://mcp.apify.com",
+      "homepage": "https://apify.com",
+      "version": "1.0.0",
+      "icon": "icons/apify.png",
+      "description": "运行 Apify 上的爬虫与自动化 Actor，获取网页数据。"
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "auth": "oauth",
+      "url": "https://mcp.postman.com/mcp",
+      "homepage": "https://www.postman.com",
+      "version": "1.0.0",
+      "icon": "icons/postman.png",
+      "description": "管理 Postman 的工作区、集合、环境与 API。"
+    },
+    {
+      "id": "mapbox",
+      "name": "Mapbox",
+      "auth": "oauth",
+      "url": "https://mcp.mapbox.com/mcp",
+      "homepage": "https://www.mapbox.com",
+      "version": "1.0.0",
+      "icon": "icons/mapbox.png",
+      "description": "地点搜索、路线规划、等时圈与静态地图。"
+    },
+    {
+      "id": "semgrep",
+      "name": "Semgrep",
+      "auth": "oauth",
+      "url": "https://mcp.semgrep.ai/mcp",
+      "homepage": "https://semgrep.dev",
+      "version": "1.0.0",
+      "icon": "icons/semgrep.png",
+      "description": "扫描代码中的安全漏洞与问题。"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "auth": "bearer",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "homepage": "https://github.com",
+      "version": "1.0.0",
+      "icon": "icons/github.png",
+      "description": "管理 GitHub 仓库、Issue、PR 与 Actions。安装后填入个人访问令牌。",
+      "credentials": [
+        {
+          "id": "token",
+          "label": "访问令牌",
+          "target": {
+            "type": "bearer"
+          },
+          "getUrl": "https://github.com/settings/personal-access-tokens"
+        }
+      ]
+    },
+    {
+      "id": "tencent-docs",
+      "name": "腾讯文档",
+      "auth": "oauth",
+      "url": "https://docs.qq.com/openapi/mcp",
+      "homepage": "https://docs.qq.com",
+      "version": "1.0.0",
+      "icon": "icons/tencent-docs.png",
+      "description": "创建、搜索、阅读和编辑腾讯文档，支持文档、表格、幻灯片与思维导图。",
+      "iconUrl": "https://developer.qcloudimg.com/operation/attachment/900005/20260310-5b0356a0.png"
+    },
+    {
+      "id": "edgeone-pages",
+      "name": "腾讯云 EdgeOne Pages",
+      "auth": "none",
+      "url": "https://mcp-on-edge.edgeone.app/mcp-server",
+      "homepage": "https://edgeone.ai",
+      "version": "1.0.0",
+      "icon": "icons/edgeone.png",
+      "description": "把网页一键部署到 EdgeOne Pages，生成可公开访问的链接。"
+    },
+    {
+      "id": "gitee",
+      "name": "Gitee",
+      "auth": "bearer",
+      "url": "https://api.gitee.com/mcp",
+      "homepage": "https://gitee.com",
+      "version": "1.0.0",
+      "icon": "icons/gitee.png",
+      "description": "管理 Gitee 仓库、文件、Issue 与 PR。安装后填入私人令牌。",
+      "credentials": [
+        {
+          "id": "token",
+          "label": "私人令牌",
+          "target": {
+            "type": "bearer"
+          },
+          "getUrl": "https://gitee.com/profile/personal_access_tokens"
+        }
+      ]
+    },
+    {
+      "id": "bailian-amap",
+      "name": "高德地图（百炼）",
+      "auth": "bearer",
+      "url": "https://dashscope.aliyuncs.com/api/v1/mcps/amap-maps/mcp",
+      "homepage": "https://lbs.amap.com",
+      "version": "1.0.0",
+      "icon": "icons/amap.png",
+      "description": "地点搜索、路线规划、天气与周边查询，经阿里云百炼接入。安装后填入百炼 API Key。",
+      "iconPage": "https://www.amap.com",
+      "credentials": [
+        {
+          "id": "apiKey",
+          "label": "API Key",
+          "target": {
+            "type": "bearer"
+          },
+          "getUrl": "https://bailian.console.aliyun.com/?tab=model#/api-key"
+        }
+      ]
+    },
+    {
+      "id": "bailian-websearch",
+      "name": "阿里云百炼 联网搜索",
+      "auth": "bearer",
+      "url": "https://dashscope.aliyuncs.com/api/v1/mcps/WebSearch/mcp",
+      "homepage": "https://bailian.console.aliyun.com",
+      "version": "1.0.0",
+      "icon": "icons/bailian.png",
+      "description": "通过阿里云百炼进行实时联网搜索。安装后填入百炼 API Key。",
+      "iconPage": "https://www.aliyun.com",
+      "iconUrl": "https://github.com/aliyun.png?size=460",
+      "credentials": [
+        {
+          "id": "apiKey",
+          "label": "API Key",
+          "target": {
+            "type": "bearer"
+          },
+          "getUrl": "https://bailian.console.aliyun.com/?tab=model#/api-key"
+        }
+      ]
+    },
+    {
+      "id": "zhipu-websearch",
+      "name": "智谱 联网搜索",
+      "auth": "bearer",
+      "url": "https://open.bigmodel.cn/api/mcp/web_search_prime/mcp",
+      "homepage": "https://bigmodel.cn",
+      "version": "1.0.0",
+      "icon": "icons/zhipu.png",
+      "description": "通过智谱开放平台进行实时联网搜索。安装后填入智谱 API Key。",
+      "iconPage": "https://www.zhipuai.cn",
+      "credentials": [
+        {
+          "id": "apiKey",
+          "label": "API Key",
+          "target": {
+            "type": "bearer"
+          },
+          "getUrl": "https://bigmodel.cn/usercenter/proj-mgmt/apikeys"
+        }
+      ]
+    },
+    {
+      "id": "zhipu-webreader",
+      "name": "智谱 网页读取",
+      "auth": "bearer",
+      "url": "https://open.bigmodel.cn/api/mcp/web_reader/mcp",
+      "homepage": "https://bigmodel.cn",
+      "version": "1.0.0",
+      "icon": "icons/zhipu.png",
+      "description": "抓取网页正文与结构化内容。安装后填入智谱 API Key。",
+      "credentials": [
+        {
+          "id": "apiKey",
+          "label": "API Key",
+          "target": {
+            "type": "bearer"
+          },
+          "getUrl": "https://bigmodel.cn/usercenter/proj-mgmt/apikeys"
+        }
+      ]
+    },
+    {
+      "id": "zhipu-zread",
+      "name": "智谱 开源仓库阅读",
+      "auth": "bearer",
+      "url": "https://open.bigmodel.cn/api/mcp/zread/mcp",
+      "homepage": "https://bigmodel.cn",
+      "version": "1.0.0",
+      "icon": "icons/zhipu.png",
+      "description": "阅读 GitHub 开源仓库的文档、结构与代码。安装后填入智谱 API Key。",
+      "credentials": [
+        {
+          "id": "apiKey",
+          "label": "API Key",
+          "target": {
+            "type": "bearer"
+          },
+          "getUrl": "https://bigmodel.cn/usercenter/proj-mgmt/apikeys"
+        }
+      ]
+    }
+  ],
+  "pending": [
+    {
+      "id": "deepwiki",
+      "name": "DeepWiki",
+      "auth": "none",
+      "url": "https://mcp.deepwiki.com/mcp",
+      "homepage": "https://deepwiki.com",
+      "version": "1.0.0",
+      "icon": "icons/deepwiki.png",
+      "description": "阅读和提问 GitHub 公开仓库的结构化文档。",
+      "iconUrl": "https://deepwiki.com/apple-touch-icon.png",
+      "reason": "icon unavailable: deepwiki.com returns HTTP 429"
+    }
+  ]
+}

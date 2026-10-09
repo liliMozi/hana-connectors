@@ -1,0 +1,20 @@
+{
+  "id": "zhipu-websearch",
+  "name": "智谱 联网搜索",
+  "description": "通过智谱开放平台进行实时联网搜索。安装后填入智谱 API Key。",
+  "transport": "streamable-http",
+  "url": "https://open.bigmodel.cn/api/mcp/web_search_prime/mcp",
+  "authType": "bearer",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "credentials": [
+    {
+      "id": "apiKey",
+      "label": "API Key",
+      "target": {
+        "type": "bearer"
+      },
+      "getUrl": "https://bigmodel.cn/usercenter/proj-mgmt/apikeys"
+    }
+  ]
+}

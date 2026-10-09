@@ -1,0 +1,10 @@
+{
+  "id": "monday",
+  "name": "monday.com",
+  "description": "查看和更新 monday.com 的看板、条目与更新。",
+  "transport": "streamable-http",
+  "url": "https://mcp.monday.com/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

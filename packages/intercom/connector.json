@@ -1,0 +1,10 @@
+{
+  "id": "intercom",
+  "name": "Intercom",
+  "description": "查询 Intercom 的会话、联系人与客服数据。",
+  "transport": "streamable-http",
+  "url": "https://mcp.intercom.com/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

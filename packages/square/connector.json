@@ -1,0 +1,10 @@
+{
+  "id": "square",
+  "name": "Square",
+  "description": "管理 Square 的商品、订单、付款与客户。",
+  "transport": "streamable-http",
+  "url": "https://mcp.squareup.com/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

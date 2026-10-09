@@ -1,0 +1,20 @@
+{
+  "id": "bailian-amap",
+  "name": "高德地图（百炼）",
+  "description": "地点搜索、路线规划、天气与周边查询，经阿里云百炼接入。安装后填入百炼 API Key。",
+  "transport": "streamable-http",
+  "url": "https://dashscope.aliyuncs.com/api/v1/mcps/amap-maps/mcp",
+  "authType": "bearer",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "credentials": [
+    {
+      "id": "apiKey",
+      "label": "API Key",
+      "target": {
+        "type": "bearer"
+      },
+      "getUrl": "https://bailian.console.aliyun.com/?tab=model#/api-key"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "gitee",
+  "name": "Gitee",
+  "description": "管理 Gitee 仓库、文件、Issue 与 PR。安装后填入私人令牌。",
+  "transport": "streamable-http",
+  "url": "https://api.gitee.com/mcp",
+  "authType": "bearer",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "credentials": [
+    {
+      "id": "token",
+      "label": "私人令牌",
+      "target": {
+        "type": "bearer"
+      },
+      "getUrl": "https://gitee.com/profile/personal_access_tokens"
+    }
+  ]
+}

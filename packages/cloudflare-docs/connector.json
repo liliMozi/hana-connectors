@@ -1,0 +1,10 @@
+{
+  "id": "cloudflare-docs",
+  "name": "Cloudflare Docs",
+  "description": "检索 Cloudflare 开发者文档。",
+  "transport": "streamable-http",
+  "url": "https://docs.mcp.cloudflare.com/mcp",
+  "authType": "none",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "cloudflare-observability",
+  "name": "Cloudflare Observability",
+  "description": "查询 Cloudflare Workers 的日志与分析数据。",
+  "transport": "streamable-http",
+  "url": "https://observability.mcp.cloudflare.com/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

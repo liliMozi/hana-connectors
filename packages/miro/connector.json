@@ -1,0 +1,10 @@
+{
+  "id": "miro",
+  "name": "Miro",
+  "description": "读取和创建 Miro 白板上的内容。",
+  "transport": "streamable-http",
+  "url": "https://mcp.miro.com/",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}

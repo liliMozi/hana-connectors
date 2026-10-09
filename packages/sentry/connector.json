@@ -1,0 +1,10 @@
+{
+  "id": "sentry",
+  "name": "Sentry",
+  "description": "查看 Sentry 里的错误、性能问题与发布信息。",
+  "transport": "streamable-http",
+  "url": "https://mcp.sentry.dev/mcp",
+  "authType": "oauth",
+  "version": "1.0.0",
+  "icon": "icon.png"
+}
